@@ -1,0 +1,46 @@
+.own-fontsize {
+  color: var(--Dark-01, #1c1c1c);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Manrope;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px;
+}
+.bg-color {
+  border-radius: 10px;
+  opacity: 0.1;
+  background: linear-gradient(270deg, #f00 0%, #ff8938 100%);
+}
+.bg-own-color {
+  border-radius: 10px;
+  background: rgba(230, 166, 35, 0.1);
+}
+.n-color2 {
+  border-radius: 10px;
+  background: rgba(87, 118, 57, 0.1);
+}
+.n-color {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #d9d9d9 0%, rgba(255, 255, 255, 0) 100%);
+}
+.clints-bg {
+  border-radius: 10px;
+  background: var(--Linear, linear-gradient(270deg, #f00 0%, #ff8938 100%));
+}
+.max-w {
+  height: 80vh;
+}
+
+.foot-h {
+  height: 80vh;
+}
+
+@media (max-width: 546px) {
+  .max-w {
+    height: fit-content;
+  }
+  .foot-h {
+    height: fit-content;
+  }
+}
